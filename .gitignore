@@ -11,8 +11,10 @@ __pycache__/
 # ─────────────────────────────────────────────
 # Environment & Secrets
 # ─────────────────────────────────────────────
-.env
+# Classroom submission requires .env (KB IDs, runtime ARN, guardrail).
+# Do NOT put AWS access keys / session tokens in .env.
 .env.*
+!.env
 !.env.example
 
 # ─────────────────────────────────────────────
